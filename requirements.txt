@@ -1,0 +1,9 @@
+Flask
+googletrans
+gTTS
+opencv-python
+pytesseract
+PyPDF2
+python-docx
+sumy
+urllib3
