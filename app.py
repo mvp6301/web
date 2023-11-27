@@ -17,6 +17,8 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 import io
 import base64
+import nltk
+nltk.download('punkt')
 
 app = Flask(__name__)
 
@@ -197,7 +199,8 @@ def process_file():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=8080)
+    app.run(host="0.0.0.0",port="8080")
+    
 
 
 
