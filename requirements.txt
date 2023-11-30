@@ -8,4 +8,3 @@ python-docx
 sumy
 urllib3
 nltk
-libgl1-mesa-glx
