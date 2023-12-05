@@ -1,5 +1,5 @@
 Flask
-googletrans
+googletrans==4.0.0-rc1
 gTTS
 opencv-python
 pytesseract
@@ -8,3 +8,4 @@ python-docx
 sumy
 urllib3
 nltk
+libgl1-mesa-glx
